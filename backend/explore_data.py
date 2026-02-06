@@ -36,7 +36,7 @@ def show_data_review(df):
 
 def analyze_features(df):
     print_selection("LABEL DISTRIBUTION")
-
+    
     label_counts = df['label'].value_counts()
 
 # analyze text features
